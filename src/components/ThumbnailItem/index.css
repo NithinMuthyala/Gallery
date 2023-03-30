@@ -1,0 +1,9 @@
+/* Write your code here. */
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.item {
+  list-style-type: none;
+}

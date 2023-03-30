@@ -1,0 +1,33 @@
+/* Write your code here. */
+.bg-container {
+  background-color: #ffffff;
+  width: 90%;
+  margin: 0px auto;
+}
+.current-image {
+  width: 100%;
+  margin-top: 20px;
+}
+@media screen and (min-width: 768px) {
+  .bg-container {
+    width: 75%;
+  }
+}
+.list-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+.para1 {
+  color: #1e293b;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.caption {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+}
